@@ -42,7 +42,7 @@ def Game():
             try:
                 while True:
                     n_candy = int(input(f'{Who_did_win(fate)} сколько конфет вы возьмете: '))
-                    if n_candy > 0 and n_candy < 500:
+                    if n_candy > 0 and n_candy < 29:
                         break
             except ValueError:
                 print('Вы ввели не целое число. Попробуй еще раз!')
@@ -55,7 +55,7 @@ def Game():
             try:
                 while True:
                     n_candy = int(input(f'{Who_did_win(fate)} сколько конфет вы возьмете: '))
-                    if n_candy > 0 and n_candy < 500:
+                    if n_candy > 0 and n_candy < 29:
                         break
             except ValueError:
                 print('Вы ввели не целое число. Попробуй еще раз!')
